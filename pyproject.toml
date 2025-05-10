@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audit-insight"
+version = "1.0.0"
+description = "Advanced NLP Analytics for Audits — Transform unstructured audit text into structured insights"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "Harshal Bhambhani"}]
+keywords = ["nlp", "audit", "sentiment-analysis", "topic-modeling", "clustering", "spacy", "roberta", "transformers"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "pandas>=2.0",
+    "spacy>=3.7",
+    "scikit-learn>=1.3",
+    "gensim>=4.3",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "transformers>=4.36",
+    "torch>=2.1",
+    "streamlit>=1.30",
+    "pyarrow>=14.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.1"]
+packaging = ["pyinstaller>=6.0"]
+
+[project.urls]
+Homepage = "https://github.com/Harshaaalll/audit-insight"
+Repository = "https://github.com/Harshaaalll/audit-insight"
+Issues = "https://github.com/Harshaaalll/audit-insight/issues"
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"

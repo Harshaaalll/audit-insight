@@ -1,0 +1,87 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ===========================
+# Virtual Environments
+# ===========================
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.*.local
+
+# ===========================
+# IDE / Editor
+# ===========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ===========================
+# Executables & Packaging
+# ===========================
+*.exe
+*.spec
+
+# ===========================
+# Model Caches
+# ===========================
+.cache/
+models/
+*.bin
+*.safetensors
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Project-Specific Outputs
+# ===========================
+data/results.csv
+data/test_results.csv
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# pytest / coverage
+# ===========================
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
