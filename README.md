@@ -1,4 +1,4 @@
-![Audit Insight](assets/banner.png)
+#![Audit Insight](assets/banner.png)
 
 # Audit Insight
 
